@@ -11,10 +11,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class browserlaunch {
 	public WebDriver browserlaunch(WebDriver driver,String url) {
 		WebDriverManager.chromedriver().setup();
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//      	chromeOptions.addArguments("--headless");
-//        driver = new ChromeDriver(chromeOptions);		
-		  driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+      	chromeOptions.addArguments("--headless");
+        driver = new ChromeDriver(chromeOptions);		
+//		  driver = new ChromeDriver();
 			driver.get(url);
 			driver.manage().window().setSize(new Dimension(1920, 1080));
 			driver.manage().window().maximize();
