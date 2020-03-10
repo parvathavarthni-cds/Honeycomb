@@ -1,0 +1,282 @@
+[
+  {
+    "source": "^the user search for any invalid asset$",
+    "steps": [
+      {
+        "name": "the user search for any invalid asset",
+        "aggregatedDurations": {
+          "average": 5.25514177,
+          "median": 5.25514177
+        },
+        "durations": [
+          {
+            "duration": 5.25514177,
+            "location": "Features/Assetdetails.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user search for any asset$",
+    "steps": [
+      {
+        "name": "the user search for any asset",
+        "aggregatedDurations": {
+          "average": 8.965346209,
+          "median": 8.965346209
+        },
+        "durations": [
+          {
+            "duration": 8.965346209,
+            "location": "Features/Assetdetails.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to see the loader$",
+    "steps": [
+      {
+        "name": "user should be able to see the loader",
+        "aggregatedDurations": {
+          "average": 3.040990315,
+          "median": 3.040990315
+        },
+        "durations": [
+          {
+            "duration": 3.040990315,
+            "location": "Features/Assetdetails.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user is in Asset details screen$",
+    "steps": [
+      {
+        "name": "the user is in Asset details screen",
+        "aggregatedDurations": {
+          "average": 9.408220219,
+          "median": 9.408220219
+        },
+        "durations": [
+          {
+            "duration": 9.408220219,
+            "location": "Features/Assetdetails.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should be able to get the message as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user should be able to get the message as \"No records found\"",
+        "aggregatedDurations": {
+          "average": 3.089369177,
+          "median": 3.089369177
+        },
+        "durations": [
+          {
+            "duration": 3.089369177,
+            "location": "Features/Assetdetails.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the clear selection icon should appear$",
+    "steps": [
+      {
+        "name": "the clear selection icon should appear",
+        "aggregatedDurations": {
+          "average": 0.039021373,
+          "median": 0.039021373
+        },
+        "durations": [
+          {
+            "duration": 0.039021373,
+            "location": "Features/Assetdetails.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects values from the dropdowns$",
+    "steps": [
+      {
+        "name": "the user selects values from the dropdowns",
+        "aggregatedDurations": {
+          "average": 13.440358497,
+          "median": 13.440358497
+        },
+        "durations": [
+          {
+            "duration": 13.440358497,
+            "location": "Features/Assetdetails.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects values from the dropdowns and clicks on view button$",
+    "steps": [
+      {
+        "name": "the user selects values from the dropdowns and clicks on view button",
+        "aggregatedDurations": {
+          "average": 13.468759889,
+          "median": 13.467106651
+        },
+        "durations": [
+          {
+            "duration": 13.492402236,
+            "location": "Features/Assetdetails.feature:14"
+          },
+          {
+            "duration": 13.545934242,
+            "location": "Features/Assetdetails.feature:19"
+          },
+          {
+            "duration": 13.394892013,
+            "location": "Features/Assetdetails.feature:25"
+          },
+          {
+            "duration": 13.441811067,
+            "location": "Features/Assetdetails.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be able to get the result based on the search$",
+    "steps": [
+      {
+        "name": "the user should be able to get the result based on the search",
+        "aggregatedDurations": {
+          "average": 0.000016702,
+          "median": 0.000016702
+        },
+        "durations": [
+          {
+            "duration": 0.000016702,
+            "location": "Features/Assetdetails.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be able to see the result based on the selection of values$",
+    "steps": [
+      {
+        "name": "the user should be able to see the result based on the selection of values",
+        "aggregatedDurations": {
+          "average": 8.552722026,
+          "median": 8.552722026
+        },
+        "durations": [
+          {
+            "duration": 8.552722026,
+            "location": "Features/Assetdetails.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects master option from the dropdown$",
+    "steps": [
+      {
+        "name": "the user selects master option from the dropdown",
+        "aggregatedDurations": {
+          "average": 10.239387689,
+          "median": 10.239387689
+        },
+        "durations": [
+          {
+            "duration": 10.239387689,
+            "location": "Features/Assetdetails.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user search starts typing text inside the search field$",
+    "steps": [
+      {
+        "name": "the user search starts typing text inside the search field",
+        "aggregatedDurations": {
+          "average": 6.166672041,
+          "median": 6.166672041
+        },
+        "durations": [
+          {
+            "duration": 6.166672041,
+            "location": "Features/Assetdetails.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be able to see all the master assets which is linked and not linked to product badges$",
+    "steps": [
+      {
+        "name": "the user should be able to see all the master assets which is linked and not linked to product badges",
+        "aggregatedDurations": {
+          "average": 9.319523555,
+          "median": 9.319523555
+        },
+        "durations": [
+          {
+            "duration": 9.319523555,
+            "location": "Features/Assetdetails.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user is in Asset details page$",
+    "steps": [
+      {
+        "name": "the user is in Asset details page",
+        "aggregatedDurations": {
+          "average": 3.29818203,
+          "median": 3.103311593
+        },
+        "durations": [
+          {
+            "duration": 3.451438278,
+            "location": "Features/Assetdetails.feature:8"
+          },
+          {
+            "duration": 3.088836567,
+            "location": "Features/Assetdetails.feature:13"
+          },
+          {
+            "duration": 3.755453602,
+            "location": "Features/Assetdetails.feature:18"
+          },
+          {
+            "duration": 3.091870114,
+            "location": "Features/Assetdetails.feature:24"
+          },
+          {
+            "duration": 3.103311593,
+            "location": "Features/Assetdetails.feature:30"
+          }
+        ]
+      }
+    ]
+  }
+]

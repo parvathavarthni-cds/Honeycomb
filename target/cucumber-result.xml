@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="147.88272">
+<testcase classname="Asset detail features" name="Validating the dropdown values" time="31.401301">
+<system-out><![CDATA[Given the user is in Asset details screen...................................passed
+When the user selects values from the dropdowns.............................passed
+Then the user should be able to see the result based on the selection of values.passed
+]]></system-out>
+</testcase>
+<testcase classname="Asset detail features" name="Validating the master assets" time="23.01035">
+<system-out><![CDATA[Given the user is in Asset details page.....................................passed
+When the user selects master option from the dropdown.......................passed
+Then the user should be able to see all the master assets which is linked and not linked to product badges.passed
+]]></system-out>
+</testcase>
+<testcase classname="Asset detail features" name="Validating the loader" time="19.622229">
+<system-out><![CDATA[Given the user is in Asset details page.....................................passed
+When the user selects values from the dropdowns and clicks on view button...passed
+Then user should be able to see the loader..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Asset detail features" name="Validating the valid search functionality" time="26.266751">
+<system-out><![CDATA[Given the user is in Asset details page.....................................passed
+When the user selects values from the dropdowns and clicks on view button...passed
+And the user search for any asset...........................................passed
+Then the user should be able to get the result based on the search..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Asset detail features" name="Validating the invalid search functioanlity" time="24.831273">
+<system-out><![CDATA[Given the user is in Asset details page.....................................passed
+When the user selects values from the dropdowns and clicks on view button...passed
+And the user search for any invalid asset...................................passed
+Then user should be able to get the message as "No records found"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Asset detail features" name="Validating the clear search icon presence" time="22.750816">
+<system-out><![CDATA[Given the user is in Asset details page.....................................passed
+When the user selects values from the dropdowns and clicks on view button...passed
+And the user search starts typing text inside the search field..............passed
+Then the clear selection icon should appear.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

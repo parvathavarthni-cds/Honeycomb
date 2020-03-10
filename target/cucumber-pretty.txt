@@ -1,0 +1,34 @@
+Feature: Asset detail features
+
+  Scenario: Validating the dropdown values                                          # Features/Assetdetails.feature:2
+    Given the user is in Asset details screen                                       # assetdetails.the_user_is_in_Asset_details_screen()
+    When the user selects values from the dropdowns                                 # assetdetails.the_user_selects_values_from_the_dropdowns()
+    Then the user should be able to see the result based on the selection of values # assetdetails.the_user_should_be_able_to_see_the_result_based_on_the_selection_of_values()
+
+  Scenario: Validating the master assets                                                                       # Features/Assetdetails.feature:7
+    Given the user is in Asset details page                                                                    # assetdetails.the_user_is_in_Asset_details_page()
+    When the user selects master option from the dropdown                                                      # assetdetails.the_user_selects_master_option_from_the_dropdown()
+    Then the user should be able to see all the master assets which is linked and not linked to product badges # assetdetails.the_user_should_be_able_to_see_all_the_master_assets_which_is_linked_and_not_linked_to_product_badges()
+
+  Scenario: Validating the loader                                             # Features/Assetdetails.feature:12
+    Given the user is in Asset details page                                   # assetdetails.the_user_is_in_Asset_details_page()
+    When the user selects values from the dropdowns and clicks on view button # assetdetails.the_user_selects_values_from_the_dropdowns_and_clicks_on_view_button()
+    Then user should be able to see the loader                                # assetdetails.user_should_be_able_to_see_the_loader()
+
+  Scenario: Validating the valid search functionality                         # Features/Assetdetails.feature:17
+    Given the user is in Asset details page                                   # assetdetails.the_user_is_in_Asset_details_page()
+    When the user selects values from the dropdowns and clicks on view button # assetdetails.the_user_selects_values_from_the_dropdowns_and_clicks_on_view_button()
+    And the user search for any asset                                         # assetdetails.the_user_search_for_any_asset()
+    Then the user should be able to get the result based on the search        # assetdetails.the_user_should_be_able_to_get_the_result_based_on_the_search()
+
+  Scenario: Validating the invalid search functioanlity                       # Features/Assetdetails.feature:23
+    Given the user is in Asset details page                                   # assetdetails.the_user_is_in_Asset_details_page()
+    When the user selects values from the dropdowns and clicks on view button # assetdetails.the_user_selects_values_from_the_dropdowns_and_clicks_on_view_button()
+    And the user search for any invalid asset                                 # assetdetails.the_user_search_for_any_invalid_asset()
+    Then user should be able to get the message as "No records found"         # assetdetails.user_should_be_able_to_get_the_message_as(String)
+
+  Scenario: Validating the clear search icon presence                         # Features/Assetdetails.feature:29
+    Given the user is in Asset details page                                   # assetdetails.the_user_is_in_Asset_details_page()
+    When the user selects values from the dropdowns and clicks on view button # assetdetails.the_user_selects_values_from_the_dropdowns_and_clicks_on_view_button()
+    And the user search starts typing text inside the search field            # assetdetails.the_user_search_starts_typing_text_inside_the_search_field()
+    Then the clear selection icon should appear                               # assetdetails.the_clear_selection_icon_should_appear()
